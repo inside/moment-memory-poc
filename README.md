@@ -2,6 +2,12 @@
 
 A poc repo to demonstrate server side memory consumption with moment
 
+- Installation:
+```
+git clone https://github.com/inside/moment-memory-poc.git
+cd moment-memory-poc
+npm install
+```
 - Run this program with:
 ```
 NODE_ENV=production node --expose-gc ./index.js
